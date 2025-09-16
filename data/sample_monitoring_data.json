@@ -1,0 +1,198 @@
+[
+  {
+    "project_id": "proj_001",
+    "data_type": "satellite",
+    "collection_date": "2024-06-01",
+    "data_content": {
+      "vegetation_coverage_percent": 92.3,
+      "vegetation_health": "excellent",
+      "change_from_baseline_percent": 18.5,
+      "ndvi_average": 0.78,
+      "resolution_meters": 10,
+      "cloud_coverage_percent": 5.2,
+      "imagery_source": "Sentinel-2",
+      "analysis_confidence": 94.1
+    },
+    "metadata": {
+      "analyst": "Dr. Sarah Chen",
+      "processing_software": "ENVI 5.6",
+      "quality_flags": ["high_quality", "cloud_free"],
+      "notes": "Excellent growth observed in northern section"
+    }
+  },
+  {
+    "project_id": "proj_001",
+    "data_type": "field_measurement",
+    "collection_date": "2024-05-15",
+    "data_content": {
+      "trees_per_hectare": 2850,
+      "average_tree_height_m": 2.8,
+      "average_diameter_cm": 8.5,
+      "survival_rate_percent": 89.2,
+      "soil_carbon_percent": 3.4,
+      "soil_ph": 7.2,
+      "water_salinity_ppt": 24.8,
+      "root_biomass_kg_per_m2": 4.2,
+      "leaf_area_index": 3.1
+    },
+    "metadata": {
+      "field_team": "Marine Biology Lab - University of Miami",
+      "sampling_method": "systematic_grid",
+      "sample_size": 45,
+      "equipment": ["soil_auger", "dbh_tape", "refractometer"],
+      "weather_conditions": "sunny, light breeze"
+    }
+  },
+  {
+    "project_id": "proj_001",
+    "data_type": "water_quality",
+    "collection_date": "2024-05-20",
+    "data_content": {
+      "ph": 7.8,
+      "dissolved_oxygen_mg_l": 6.8,
+      "turbidity_ntu": 8.2,
+      "temperature_celsius": 26.5,
+      "salinity_ppt": 25.1,
+      "nitrate_mg_l": 0.15,
+      "phosphate_mg_l": 0.08,
+      "total_suspended_solids_mg_l": 12.3
+    },
+    "metadata": {
+      "sampling_points": 8,
+      "depth_sampled": "surface_and_bottom",
+      "lab_analysis": "Coastal Water Quality Lab",
+      "certification": "EPA_approved"
+    }
+  },
+  {
+    "project_id": "proj_002",
+    "data_type": "satellite",
+    "collection_date": "2024-06-10",
+    "data_content": {
+      "vegetation_coverage_percent": 78.6,
+      "vegetation_health": "good",
+      "change_from_baseline_percent": 12.3,
+      "ndvi_average": 0.65,
+      "resolution_meters": 10,
+      "cloud_coverage_percent": 15.8,
+      "imagery_source": "Landsat-8",
+      "analysis_confidence": 87.4
+    },
+    "metadata": {
+      "analyst": "Remote Sensing Team",
+      "processing_date": "2024-06-12",
+      "atmospheric_correction": "applied",
+      "notes": "Some cloud interference in eastern section"
+    }
+  },
+  {
+    "project_id": "proj_002",
+    "data_type": "field_measurement",
+    "collection_date": "2024-05-28",
+    "data_content": {
+      "shoot_density_per_m2": 485,
+      "average_blade_length_cm": 45.2,
+      "biomass_g_per_m2": 125.8,
+      "epiphyte_coverage_percent": 12.5,
+      "soil_carbon_percent": 2.1,
+      "sediment_grain_size_mm": 0.25,
+      "water_depth_m": 2.3,
+      "light_attenuation_coefficient": 0.18
+    },
+    "metadata": {
+      "dive_team": "Chesapeake Bay Research Institute",
+      "quadrat_size": "0.25_m2",
+      "replicates": 30,
+      "visibility_m": 3.5,
+      "current_speed_m_s": 0.12
+    }
+  },
+  {
+    "project_id": "proj_003",
+    "data_type": "field_measurement",
+    "collection_date": "2024-06-05",
+    "data_content": {
+      "stem_density_per_m2": 1250,
+      "average_height_cm": 85.3,
+      "biomass_g_per_m2": 890.5,
+      "soil_carbon_percent": 4.1,
+      "soil_bulk_density_g_cm3": 0.65,
+      "elevation_m_above_msl": 1.45,
+      "pore_water_salinity_ppt": 28.5,
+      "root_to_shoot_ratio": 2.3
+    },
+    "metadata": {
+      "research_station": "San Francisco Bay Institute",
+      "tidal_stage": "mid_tide",
+      "transect_length_m": 100,
+      "plot_size": "1_m2",
+      "sediment_cores": 15
+    }
+  },
+  {
+    "project_id": "proj_004",
+    "data_type": "satellite",
+    "collection_date": "2024-06-08",
+    "data_content": {
+      "vegetation_coverage_percent": 95.1,
+      "vegetation_health": "excellent",
+      "change_from_baseline_percent": 22.8,
+      "ndvi_average": 0.82,
+      "resolution_meters": 10,
+      "cloud_coverage_percent": 8.3,
+      "imagery_source": "Sentinel-2",
+      "analysis_confidence": 96.2
+    },
+    "metadata": {
+      "processing_center": "CATIE Remote Sensing Lab",
+      "seasonal_adjustment": "dry_season",
+      "validation_points": 25,
+      "notes": "Exceptional growth in all sectors"
+    }
+  },
+  {
+    "project_id": "proj_004",
+    "data_type": "field_measurement",
+    "collection_date": "2024-05-22",
+    "data_content": {
+      "trees_per_hectare": 3200,
+      "average_tree_height_m": 3.5,
+      "average_diameter_cm": 12.8,
+      "survival_rate_percent": 94.5,
+      "soil_carbon_percent": 4.2,
+      "prop_root_density": "high",
+      "canopy_coverage_percent": 88.5,
+      "seedling_recruitment_per_m2": 8.5
+    },
+    "metadata": {
+      "local_team": "Costa Rica Mangrove Alliance",
+      "community_volunteers": 12,
+      "measurement_protocol": "CIFOR_standard",
+      "gps_accuracy_m": 2.5,
+      "photo_documentation": "complete"
+    }
+  },
+  {
+    "project_id": "proj_005",
+    "data_type": "underwater_survey",
+    "collection_date": "2024-06-12",
+    "data_content": {
+      "kelp_density_per_m2": 12.5,
+      "average_frond_length_m": 8.2,
+      "biomass_kg_per_m2": 3.8,
+      "canopy_coverage_percent": 72.3,
+      "holdfast_density_per_m2": 8.9,
+      "water_temperature_celsius": 14.2,
+      "light_penetration_percent": 45.8,
+      "current_velocity_m_s": 0.25
+    },
+    "metadata": {
+      "dive_team": "Monterey Bay Aquarium Research Institute",
+      "survey_method": "transect_diving",
+      "visibility_m": 8.5,
+      "depth_range_m": "8-15",
+      "survey_duration_hours": 4.5,
+      "video_documentation": "4K_underwater"
+    }
+  }
+]

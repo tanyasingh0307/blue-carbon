@@ -1,0 +1,142 @@
+[
+  {
+    "id": "proj_001",
+    "name": "Mangrove Restoration Bay Area",
+    "description": "Large-scale mangrove restoration project in the Florida Keys focusing on Rhizophora mangle species to enhance coastal protection and carbon sequestration.",
+    "project_type": "mangroves",
+    "location": "Florida Keys, USA",
+    "latitude": 25.0760,
+    "longitude": -80.2730,
+    "area_hectares": 25.5,
+    "start_date": "2022-01-15",
+    "ngo": "Blue Ocean Foundation",
+    "baseline_data": {
+      "initial_vegetation_coverage": 15,
+      "soil_carbon_baseline": 2.1,
+      "water_depth_range": "0.5-2.0m",
+      "dominant_species": ["Rhizophora mangle", "Avicennia germinans"],
+      "seedlings_planted": 12000,
+      "survival_rate_target": 85
+    },
+    "environmental_conditions": {
+      "temperature": 26.5,
+      "salinity": 25.0,
+      "tidal_range": 1.2,
+      "sediment_type": "organic_rich",
+      "water_quality": "good",
+      "vegetation_health": "excellent"
+    }
+  },
+  {
+    "id": "proj_002",
+    "name": "Seagrass Recovery Project",
+    "description": "Restoration of Zostera marina beds in Chesapeake Bay using innovative seeding techniques and water quality improvement measures.",
+    "project_type": "seagrass",
+    "location": "Chesapeake Bay, USA",
+    "latitude": 38.9784,
+    "longitude": -76.4951,
+    "area_hectares": 18.2,
+    "start_date": "2023-03-01",
+    "ngo": "Coastal Restoration Initiative",
+    "baseline_data": {
+      "initial_vegetation_coverage": 5,
+      "soil_carbon_baseline": 1.8,
+      "water_depth_range": "1.0-4.0m",
+      "dominant_species": ["Zostera marina"],
+      "seeds_planted": 50000,
+      "planting_density": "2750_seeds_per_hectare"
+    },
+    "environmental_conditions": {
+      "temperature": 18.5,
+      "salinity": 18.0,
+      "tidal_range": 0.8,
+      "sediment_type": "sandy",
+      "water_quality": "fair",
+      "vegetation_health": "good"
+    }
+  },
+  {
+    "id": "proj_003",
+    "name": "Salt Marsh Conservation",
+    "description": "Conservation and enhancement of existing salt marsh ecosystem in San Francisco Bay with focus on Spartina foliosa restoration.",
+    "project_type": "salt_marshes",
+    "location": "San Francisco Bay, USA",
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "area_hectares": 12.8,
+    "start_date": "2023-02-20",
+    "ngo": "Marine Conservation Society",
+    "baseline_data": {
+      "initial_vegetation_coverage": 65,
+      "soil_carbon_baseline": 3.2,
+      "elevation_range": "0.8-2.1m_above_msl",
+      "dominant_species": ["Spartina foliosa", "Salicornia pacifica"],
+      "restoration_method": "sediment_addition_and_planting",
+      "target_coverage": 90
+    },
+    "environmental_conditions": {
+      "temperature": 15.2,
+      "salinity": 32.0,
+      "tidal_range": 1.8,
+      "sediment_type": "mixed",
+      "water_quality": "good",
+      "vegetation_health": "good"
+    }
+  },
+  {
+    "id": "proj_004",
+    "name": "Mangrove Reforestation Pacific",
+    "description": "Community-based mangrove reforestation project on the Pacific coast of Costa Rica involving local communities and schools.",
+    "project_type": "mangroves",
+    "location": "Costa Rica Pacific Coast",
+    "latitude": 9.7489,
+    "longitude": -84.8413,
+    "area_hectares": 45.0,
+    "start_date": "2021-11-10",
+    "ngo": "Tropical Conservation Fund",
+    "baseline_data": {
+      "initial_vegetation_coverage": 8,
+      "soil_carbon_baseline": 1.9,
+      "water_depth_range": "0.3-1.8m",
+      "dominant_species": ["Rhizophora racemosa", "Pelliciera rhizophorae"],
+      "seedlings_planted": 22000,
+      "community_participants": 150
+    },
+    "environmental_conditions": {
+      "temperature": 28.0,
+      "salinity": 28.0,
+      "tidal_range": 2.1,
+      "sediment_type": "organic_rich",
+      "water_quality": "excellent",
+      "vegetation_health": "excellent"
+    }
+  },
+  {
+    "id": "proj_005",
+    "name": "Kelp Forest Blue Carbon",
+    "description": "Innovative kelp forest restoration project exploring the blue carbon potential of macroalgae ecosystems in California.",
+    "project_type": "seagrass",
+    "location": "Monterey Bay, California",
+    "latitude": 36.6002,
+    "longitude": -121.8947,
+    "area_hectares": 32.1,
+    "start_date": "2023-05-15",
+    "ngo": "Pacific Marine Foundation",
+    "baseline_data": {
+      "initial_vegetation_coverage": 20,
+      "soil_carbon_baseline": 1.5,
+      "water_depth_range": "5.0-20.0m",
+      "dominant_species": ["Macrocystis pyrifera"],
+      "restoration_method": "spore_seeding",
+      "target_canopy_coverage": 80
+    },
+    "environmental_conditions": {
+      "temperature": 14.5,
+      "salinity": 34.0,
+      "tidal_range": 1.5,
+      "sediment_type": "rocky",
+      "water_quality": "excellent",
+      "vegetation_health": "fair"
+    }
+  }
+]
