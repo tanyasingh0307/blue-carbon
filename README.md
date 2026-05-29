@@ -152,6 +152,10 @@ The platform works perfectly **without the backend** for demonstration purposes:
 - **Auditor**: `auditor@example.com` / `demo123`  
 - **Corporate**: `corporate@example.com` / `demo123`
 
+## Frontend Demo
+
+[👉 Live Demo](https://blue-carbon-psi.vercel.app/)
+
 ## 🔄 Backend Integration
 
 When the backend is running, the frontend automatically switches from demo mode to live API integration:
